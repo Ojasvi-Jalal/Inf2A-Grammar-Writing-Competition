@@ -348,7 +348,6 @@
 1    VB3S    pull   
 1    JJ      other  
 1    Pn      other
-1    VB      other
 1    PMyPn    you    
 1    Scontra 'm     
 1    JJ      dead   
@@ -501,7 +500,6 @@
 1    JJ      charged 
 1    Proper    God         
 1    VB3S    blow        
-1    Noun    blow
 1    PosPn    my                
 1    Noun   nose  
 1    VB3S   nose 
@@ -520,4 +518,4 @@
 1    Noun   mother      
 1    VB3S   mother 
 1    VB3S   run         
-1    Noun   run   
+1    Noun   run 
