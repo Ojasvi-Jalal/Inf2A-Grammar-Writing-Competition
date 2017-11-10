@@ -91,9 +91,9 @@
 1    VerbT    rides
 
 # End-of-sentence.
-1    _!    !
-1    _.    .
-1    _?    ?
+1    ThEnd    !
+1    ThEnd    .
+1    ThEnd    ?
 
 # Pauses.
 1    _,    ,
