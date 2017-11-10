@@ -22,3 +22,79 @@
 
 # in case you use S1.gr by itself
 1   S2   Misc
+
+    S1  Expl ThEnd
+    S1  Excl ThEnd
+    S1  NP VP
+    S1  NP _VP
+    _VP VP Punc
+    VP  Adv VP
+    VP  VerbT NP
+    VP  VBD NP
+    VP  PreVBDD VBDD
+    VP  PreVBG VBG
+    VP  TO VB
+    
+    VP  PreVBG _JJ
+    VP  VerbT AJJ
+    _JJ Det   SJJ
+    _JJ Det   CJJ
+    _JJ Det    JJ
+    _JJ Adv   SJJ
+    AJJ Det   SJJ
+    AJJ Adv   JJ
+    
+    VP VerbT
+    VP MV VBG
+    VP MV VB
+    VP FM VBG
+    FM MV BE
+    
+    S1 NP
+    NP Det NP
+    NP SJJ _NP
+    NP CJJ _NP
+    _NP Noun
+    _NP NNS
+    _NP PrpNs
+    _NP IPRP
+    
+     #Negation
+     _NVBG  NOT VBG
+     _NVBDD NOT VBDD
+     _NJJ   NOT _JJ
+      NOT   not
+      
+      #'s
+       NP  AsN NP
+       AsN _SNN AS
+      _SNN Noun
+      _SNN Prp
+      _SNN IPRP
+      _PNN NNS
+      _PNN PrpNs
+      
+      #counting
+      CNN sNum _SNN
+      CNN pNum _PNN
+      PNum #other than one
+      SNum One
+      
+      NP PosPn _NP
+      VP SN VB3
+      VP PLN VB3S
+      SN _SNN 
+      SN sMyPn
+      PLN _PNN
+      PLN PMyPn
+      SMyPn she
+      SMyPn he
+      SMyPn it
+      PMyPn I
+      PMyPn we
+      PMyPn they
+      PMyPn you
+      
+      
+      
+    
