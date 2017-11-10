@@ -1,4 +1,4 @@
-b# This is a hand-generated set of preterminal rules.
+# This is a hand-generated set of preterminal rules.
 # It specifies a simple tag set which will be handled by the S2
 # grammar and which can (though doesn't necessarily need to be)
 # handled by the S1 grammar.
@@ -91,113 +91,113 @@ b# This is a hand-generated set of preterminal rules.
 1    VerbT    rides
 
 # End-of-sentence.
-1    Misc    !
-1    Misc    .
-1    Misc    ?
+1    _!    !
+1    _.    .
+1    _?    ?
 
 # Pauses.
-1    Misc    ,
-1    Misc    ...
-1    Misc    --
-1    Misc    ;
-1    Misc    :
+1    _,    ,
+1    _...    ...
+1    _(__)    --
+1    _;    ;
+1    _:    :
 
 # Coordinating conjunctions.
-1    Misc    and
-1    Misc    but
-1    Misc    or
-1    Misc    either
-1    Misc    nor
-1    Misc    neither
-1    Misc    so
+1    CC    and
+1    CC    but
+1    CC    or
+1    CC    either
+1    CC    nor
+1    CC     neither
+1    CC     so
 
 # Numbers.
-1    Misc    eight
-1    Misc    five
-1    Misc    one
-1    Misc    5.5
-1    Misc    sixty
-1    Misc    5,000
+1    Num    eight
+1    Num   five
+1    Num     one
+1    Num     5.5
+1    Num     sixty
+1    Num     5,000
 
 # Expletive.
-1    Misc    there
+1    Expl    there
 
 # Subordinating conjunctions.
-1    Misc    that
-1    Misc    so
-1    Misc    while
-1    Misc    because
-1    Misc    if
+1    SC   that
+1    SC    so
+1    SC    while
+1    SC    because
+1    SC    if
 
 # Modals.
-1    Misc    can
-1    Misc    could
-1    Misc    may
-1    Misc    might
-1    Misc    must
-1    Misc    ought
-1    Misc    shall
-1    Misc    should
-1    Misc    will
-1    Misc    would
+1    MV    can
+1    MV    could
+1    MV    may
+1    MV    might
+1    MV    must
+1    MV    ought
+1    MV    shall
+1    MV    should
+1    MV    will
+1    MV    would
 
 
 # Adjectives.
-1    Misc    bloody
-1    Misc    weary
-1    Misc    unable
-1    Misc    trusty
-1    Misc    further
-1    Misc    sacred
-1    Misc    tropical
-1    Misc    indigenous
-1    Misc    temperate
-1    Misc    hot
-1    Misc    lucky
-1    Misc    simple
-1    Misc    tiny
-1    Misc    hard    
-1    Misc    sensational
-1    Misc    comparable
-1    Misc    angolian
-1    Misc    yellow
-1    Misc    plodding
+1    JJ     bloody
+1    JJ     weary
+1    JJ     unable
+1    JJ     trusty
+1    JJ     further
+1    JJ     sacred
+1    JJ     tropical
+1    JJ     indigenous
+1    JJ     temperate
+1    JJ     hot
+1    JJ     lucky
+1    JJ     simple
+1    JJ     tiny
+1    JJ     hard    
+1    JJ     sensational
+1    JJ     comparable
+1    JJ     angolian
+1    JJ     yellow
+1    JJ     plodding
 
 # Comparative adjectives.
-1    Misc    bloodier
-1    Misc    wearier
-1    Misc    trustier
-1    Misc    hotter
-1    Misc    simpler
-1    Misc    tinier
-1    Misc    harder
+1    CJJ    bloodier
+1    CJJ    wearier
+1    CJJ    trustier
+1    CJJ    hotter
+1    CJJ    simpler
+1    CJJ    tinier
+1    CJJ    harder
 
 # Superlative adjectives.
-1    Misc    bloodiest
-1    Misc    weariest
-1    Misc    trustiest
-1    Misc    hottest
-1    Misc    simplest
-1    Misc    tiniest
-1    Misc    hardest
+1    SJJ    bloodiest
+1    SJJ    weariest
+1    SJJ    trustiest
+1    SJJ    hottest
+1    SJJ    simplest
+1    SJJ    tiniest
+1    SJJ    hardest
 
 # Plural nouns.
-1    Misc    coconuts
-1    Misc    halves
-1    Misc    snows
-1    Misc    mountains
-1    Misc    areas
-1    Misc    strangers
-1    Misc    inches
-1    Misc    snakes
-1    Misc    ants
-1    Misc    nights
+1    NNS     coconuts
+1    NNS     halves
+1    NNS     snows
+1    NNS     mountains
+1    NNS     areas
+1    NNS     strangers
+1    NNS     inches
+1    NNS     snakes
+1    NNS     ants
+1    NNS     nights
 
 # More proper nouns, not people.
 
-1    Misc    Camelot
-1    Misc    England
-1    Misc    _Holy _Grail
+1    IPRP   Camelot
+1    IPRP    England
+1    IPRP    _Holy _Grail
 1    _Holy   Holy
 1    _Grail  Grail
 1    Misc    _Round _Table
@@ -205,257 +205,318 @@ b# This is a hand-generated set of preterminal rules.
 1    _Table  Table
 
 # Plural proper nouns.
-1    Misc    Britons
-1    Misc    Saxons
+1    PrpNS    Britons
+1    PrpNS    Saxons
 
 # Personal pronouns.
-1    Misc    I
-1    Misc    he
-1    Misc    her
-1    Misc    him
-1    Misc    it
-1    Misc    one
-1    Misc    she
-1    Misc    them
-1    Misc    they
+1    MyPn    I
+1    MyPn     he
+1    MyPn     her
+1    MyPn     him
+1    MyPn     it
+1    MyPn     one
+1    MyPn     she
+1    MyPn     them
+1    MyPn     they
 
 
 # Possessive personal pronouns
-1    Misc    her
-1    Misc    his
-1    Misc    its
-1    Misc    their
+1    PosPn     her
+1    PosPn     his
+1    PosPn     its
+1    PosPn     their
 
 # Adverbs.
-1    Misc    again
-1    Misc    already
-1    Misc    currently
-1    Misc    frequently
-1    Misc    precisely
-1    Misc    south
-1    Misc    successfully
-1    Misc    unfortunately
+1    Adv    again
+1    Adv    already
+1    Adv    currently
+1    Adv    frequently
+1    Adv    precisely
+1    Adv    south
+1    Adv    successfully
+1    Adv    unfortunately
 
 # 'do'/'does'
-1    Misc    do
-1    Misc    does
+1    Do/es    do
+1    Do/es   does
 
 # 'to'
-1    Misc    to
+1    TO    to
 
 # 'not'
-1    Misc    not
+1    NOT    not
 
 # Verbs (base form).
-1    Misc    have
-1    Misc    speak
-1    Misc    cover
-1    Misc    be
-1    Misc    ride
-1    Misc    drink
-1    Misc    grow
-1    Misc    carry
-1    Misc    suggest
-1    Misc    migrate
-1    Misc    know
+1    VB    have
+1    VB    speak
+1    VB    cover
+1    VB    be
+1    VB    ride
+1    VB    drink
+1    VB    grow
+1    VB    carry
+1    VB    suggest
+1    VB    migrate
+1    VB    know
 
 # Verbs (past tense).
-1    Misc    had
-1    Misc    spoke
-1    Misc    covered
-1    Misc    was
-1    Misc    were
-1    Misc    rode
-1    Misc    drank
-1    Misc    grew
-1    Misc    carried
-1    Misc    suggested
-1    Misc    migrated
-1    Misc    knew
+1    VBD    had
+1    VBD    spoke
+1    VBD    covered
+1    VBD    was
+1    VBD    were
+1    VBD    rode
+1    VBD    drank
+1    VBD    grew
+1    VBD    carried
+1    VBD    suggested
+1    VBD    migrated
+1    VBD    knew
 
 # Verbs (present participles).
-1    Misc    having
-1    Misc    speaking
-1    Misc    covering
-1    Misc    being
-1    Misc    riding
-1    Misc    drinking
-1    Misc    growing
-1    Misc    carrying
-1    Misc    suggesting
-1    Misc    migrating
-1    Misc    knowing
+1    VBG    having
+1    VBG    speaking
+1    VBG    covering
+1    VBG    being
+1    VBG    riding
+1    VBG    drinking
+1    VBG    growing
+1    VBG    carrying
+1    VBG    suggesting
+1    VBG    migrating
+1    VBG    knowing
 
 # Verbs (past participle).
-1    Misc    had
-1    Misc    spoken
-1    Misc    covered
-1    Misc    been
-1    Misc    ridden
-1    Misc    drunk
-1    Misc    grown
-1    Misc    carried
-1    Misc    suggested
-1    Misc    migrated
-1    Misc    known
+1    VBDD    had
+1    VBDD    spoken
+1    VBDD    covered
+1    VBDD    been
+1    VBDD    ridden
+1    VBDD    drunk
+1    VBDD    grown
+1    VBDD    carried
+1    VBDD    suggested
+1    VBDD    migrated
+1    VBDD    known
 
 # More third person singular verbs.
-1    Misc    speaks
-1    Misc    grows
-1    Misc    goes
-1    Misc    migrates
-1    Misc    suggests
-1    Misc    knows
+1    VB3    speaks
+1    VB3    grows
+1    VB3    goes
+1    VB3    migrates
+1    VB3    suggests
+1    VB3    knows
 
 # Verbs (present, plural, third person).
-1    Misc    have
-1    Misc    speak
-1    Misc    cover
-1    Misc    are
-1    Misc    ride
-1    Misc    drink
-1    Misc    grow
-1    Misc    carry
-1    Misc    suggest
-1    Misc    migrate
-1    Misc    know
+1    VB3S     have
+1    VB3S     speak
+1    VB3S     cover
+1    VB3S     are
+1    VB3S     ride
+1    VB3S     drink
+1    VB3S     grow
+1    VB3S     carry
+1    VB3S     suggest
+1    VB3S     migrate
+1    VB3S     know
 
 # Wh-determiners.
-1    Misc    that
-1    Misc    what
-1    Misc    which
+1    WhDet    that
+1    WhDet    what
+1    WhDet    which
 
 # Wh-pronouns.
-1    Misc    what
-1    Misc    who
+1    WhPn    what
+1    WhPn    who
 
 # Wh possessive pronoun.
-1    Misc    whose
+1    WhPosPn  whose
 
 # Wh-adverbs
-1    Misc    how
-1    Misc    when
-1    Misc    where
-1    Misc    why
+1    WhAdv    how
+1    WhAdv    when
+1    WhAdv    where
+1    WhAdv    why
 
 
 # Possessive marker.
-1    Misc    's
+1    AS    's
 
 # Some additional words from Monty Python
-1    Misc    pull   // verb (VB3S)
-1    Misc    other  //adjectives,pronoun,verb
-1    Misc    you    //Pn
-1    Misc    'm     //Contra
-1    Misc    dead   //JJ
-1    Misc    're    //Contra
-1    Misc    fooling //VBG
-1    Misc    anyone  //Pn
-1    Misc    y'      //Contra
-1    Misc    feel    //VB3S
-1    Misc    happy   //JJ
-1    Misc    thirty  //Num
-1    Misc    seven   //Num
-1    Misc    old     //JJ,Noun
-1    Misc    yourself //Pn
-1    Misc    we       //Pn
-1    Misc    living   //VBG
-1    Misc    in       //Prep,Adv,JJ
-1    Misc    dictatorship //Noun
-1    Misc    an          // Det
-1    Misc    anarcho-syndicalist //JJ
-1    Misc    commune //Noun,VBG
-1    Misc    all     //Det,Pn,Adv,
-1    Misc    decisions //Noun
-1    Misc    officer   //Noun
-1    Misc    ratified  //VBD,VBDD
-1    Misc    special   //JJ
-1    Misc    biweekly  //JJ,Adv,Noun
-1    Misc    meeting   //Noun,VBG
-1    Misc    order     //VBG,Noun
-1    Misc    quiet     //JJ
-1    Misc    well      //Adv,JJ,Noun,
-1    Misc    'ow       //Contra
-1    Misc    did       //VBD
-1    Misc    become    //VB3S,VBDD
-1    Misc    then      //ADV
-1    Misc    am        //preVBG
-1    Misc    your      //PosPn
-1    Misc    mean      //JJ,VBG,Noun
-1    Misc    went      //VBD
-1    Misc    around    //ADV,Prep
-1    Misc    sayin'    //VBG
-1    Misc    emperor   //Noun
-1    Misc    just      //ADV,JJ
-1    Misc    some      //JJ,Det,Pn,Adv
-1    Misc    moistened //VBD,VBDD,JJ
-1    Misc    bink      //Noun
-1    Misc    lobbed    //VBD,VBDD
-1    Misc    scimitar //Noun
-1    Misc    me       //Pn
-1    Misc    'd        //Contra
-1    Misc    put       //VB3S
-1    Misc    away      //ADV,JJ,Noun
-1    Misc    now       //ADv,SC,JJ
-1    Misc    see       //VB3S
-1    Misc    violence   //Noun
-1    Misc    inherent   //JJ
-1    Misc    system     //Noun
-1    Misc    oh         //Excl
-1    Misc    come       //VB3S,Prep
-1    Misc    help       //VB3S,Noun
-1    Misc    repressed  //JJ,VBD,VBDD
-1    Misc    peasant    //Noun
-1    Misc    fight      //VB3S,Noun
-1    Misc    strength    //Noun
-1    Misc    many        //Det,Pn,JJ,Noun
-1    Misc    men         //Noun
-1    Misc    with        //Prep
-1    Misc    none        //Pn,Adv
-1    Misc    pass        //VB3S
-1    Misc    move        //VB3S
-1    Misc    man         //Noun,VB3S
-1    Misc    pansy       //Noun
-1    Misc    victory     //Noun
-1    Misc    mine        //PosPn
-1    Misc    going       //VBG
-1    Misc    bleed       //VB3S
-1    Misc    loony       //JJ,Noun
-1    Misc    right       //JJ,ADV,Noun,VB3S
-1    Misc    'll         //contra
-1    Misc    call        //VB3S,Noun
-1    Misc    draw        //VB3S,Noun
-1    Misc    bite        //VB3S,Noun
-1    Misc    legs        //NNS
-1    Misc    off         //Adv,Prep,JJ
-1    Misc    found       //VBD,VBDD,VB3S
-1    Misc    witch       //Noun
-1    Misc    burn        //VB3S,Noun
-1    Misc    second      //Num
-1    Misc    thought     //Noun,VBD,VBDD
-1    Misc    let         //VBG
-1    Misc    go          //VB3S
-1    Misc    silly       //JJ
-1    Misc    place       //Noun,VB3S
-1    Misc    King        //Noun
-1    Misc    purpose     //Noun
-1    Misc    Quest       //Noun
-1    Misc    tell        //VB3S
-1    Misc    charged     //VBD,VBDD,JJ
-1    Misc    God         //Proper
-1    Misc    blow        //VB3S,Noun
-1    Misc    my          //PosPn
-1    Misc    nose        //Noun,VB3S
-1    Misc    so-called   //JJ
-1    Misc    Arthur-king //Noun
-1    Misc    English     //JJ,IPRP
-1    Misc    knnnniggets //NNS
-1    Misc    thppppt     //Excl
-1    Misc    strange     //JJ
-1    Misc    person      //Noun
-1    Misc    taunt       //Vb3s,Noun
-1    Misc    time-a      //Noun
-1    Misc    ah          //Excl
-1    Misc    mother      //Noun,VB3S
-1    Misc    run         //VB3S,Noun
+1    VB3S    pull   
+1    JJ      other  
+1    Pn      other
+1    VB      other
+1    MyPn    you    
+1    Scontra 'm     
+1    JJ      dead   
+1    3contra 're    
+1    VBG     fooling
+1    Pn      anyone 
+1    MyPn    y'      
+1    VB3S    feel    
+1    JJ      happy   
+1    Num     thirty  
+1    Num     seven   
+1    JJ      old     
+1    Noun    old
+1    Pn      yourself 
+1    MyPn    we      
+1    VBG     living   
+1    Prep    in       
+1    Adv     in
+1    JJ      in
+1    Noun    dictatorship 
+1    Det     an          
+1    JJ      anarcho-syndicalist 
+1    Noun    commune 
+1    VBG     commune
+1    Pn      all     
+1    Adv     all
+1    Noun   decisions 
+1    Noun    officer   
+1    VBD    ratified  
+1    VBDD   ratified
+1    JJ     special   
+1    JJ     biweekly  
+1    Adv    biweekly
+1    Noun   biweekly
+1    Noun   meeting   
+1    VBG    meeting
+1    VBG    order     
+1    Noun   order
+1    JJ     quiet     
+1    Adv    well     
+1    JJ     well
+1    Noun   well
+1    WhAdv    'ow      
+1    VBD     did       
+1    VB3S    become    
+1    VBDD    become
+1    Adv     then     
+1    preVBG  am        
+1    PosPn   your      
+1    JJ      mean     
+1    VBG     mean
+1    Noun    mean
+1    VBD    went     
+1    Adv    around    
+1    Prep    around
+1    VBG    sayin'   
+1    Noun    emperor  
+1    Adv   just     
+1    JJ    just
+1    JJ    some     
+1    Det   some 
+1    Pn    some 
+1    Adv   some 
+1    VBD    moistened 
+1    VBDD   moistened
+1    JJ     moistened
+1    Noun   bink      
+1    VBD    lobbed    
+1    VBDD   lobbed
+1    Noun   scimitar 
+1    Pn     me        
+1    Contra   'd       
+1    VB3S    put       
+1    Adv    away     
+1    JJ     away
+1    Noun   away
+1    Adv    now      
+1    SC     now  
+1    JJ     now  
+1    VB3S    see       
+1    Noun   violence   
+1    JJ    inherent   
+1    Noun    system     
+1    Excl    oh         
+1    VB3S    come       
+1    Prep    come
+1    VB3S    help       
+1    Noun    help
+1    JJ     repressed  
+1    VBD    repressed
+1    VBDD   repressed
+1    Noun    peasant    
+1    VB3S    fight      
+1    Noun    fight  
+1    Noun    strength    
+1    Det     many        
+1    Pn      many   
+1    JJ      many   
+1    Noun    men         
+1    Prep    with       
+1    Pn      none      
+1    Adv     none
+1    VB3S    pass        
+1    VB3S    move        
+1    Noun    man  
+1    VB3S    man  
+1    Noun    pansy       
+1    Noun    victory     
+1    PosPn    mine        
+1    VBG    going       
+1    VB3S    bleed       
+1    JJ    loony     
+1    Noun  loony
+1    JJ    right       
+1    Adv    right 
+1    Noun   right 
+1    VB3S   right 
+1    contra  'll         
+1    VB3S    call        
+1    Noun    call
+1    VB3S    draw      
+1    Noun    draw  
+1    VB3S    bite        
+1    Noun    bite
+1    NNS    legs        
+1    Adv    off         
+1    Prep   off
+1    JJ     off
+1    VBD     found       
+1    VBDD    found   
+1    VB3S    found   
+1    Noun    witch       
+1    VB3S    burn        
+1    Noun    burn 
+1    Num    second     
+1    Noun   thought     
+1    VBD    thought
+1    VBDD   thought
+1    VBG    let         
+1    VB3S   go         
+1    JJ     silly     
+1    Noun    place       
+1    VB3S    place 
+1    Noun    King        
+1    Noun   purpose    
+1    Noun    Quest       
+1    VB3S    tell       
+1    VBD    charged     
+1    VBDD    charged 
+1    JJ      charged 
+1    Proper    God         
+1    VB3S    blow        
+1    Noun    blow
+1    PosPn    my                
+1    Noun   nose  
+1    VB3S   nose 
+1    JJ     so-called   
+1    Noun   Arthur-king 
+1    JJ     English     
+1    IPRP   English     
+1    NNS    knnnniggets 
+1    Excl   thppppt     
+1    JJ     strange     
+1    Noun   person      
+1    VB3S   taunt      
+1    Noun   taunt  
+1    Noun   time-a     
+1    Excl   ah        
+1    Noun   mother      
+1    VB3S   mother 
+1    VB3S   run         
+1    Noun   run   
 
