@@ -23,78 +23,69 @@
 # in case you use S1.gr by itself
 1   S2   Misc
 
-    S1  Expl ThEnd
-    S1  Excl ThEnd
-    S1  NP VP
-    S1  NP _VP
-    _VP VP Punc
-    VP  Adv VP
-    VP  VerbT NP
-    VP  VBD NP
-    VP  PreVBDD VBDD
-    VP  PreVBG VBG
-    VP  TO VB
+1   S1   Expl ThEnd
+1   S1   Excl ThEnd
+1   S1   NP VP
+1   S1   NP _VP
+1   _VP  VP Punc
+1   VP   Adv VP
+1   VP   VerbT NP
+1   VP   VBD NP
+1   VP   PreVBDD VBDD
+1   VP   PreVBG VBG
+1   VP   TO VB
     
-    VP  PreVBG _JJ
-    VP  VerbT AJJ
-    _JJ Det   SJJ
-    _JJ Det   CJJ
-    _JJ Det    JJ
-    _JJ Adv   SJJ
-    AJJ Det   SJJ
-    AJJ Adv   JJ
+1   VP   PreVBG _JJ
+1   VP   VerbT AJJ
+1   _JJ  Det   SJJ
+1   _JJ  CJJ
+1   _JJ  JJ
+1   _JJ  Adv   SJJ
+1   AJJ  Det   SJJ
+1   AJJ  Adv   JJ
     
-    VP VerbT
-    VP MV VBG
-    VP MV VB
-    VP FM VBG
-    FM MV BE
+1   VP   VerbT
+1   VP   MV VBG
+1   VP   MV VB
+1   VP   FM VBG
+1   FM   MV BE
     
-    S1 NP
-    NP Det NP
-    NP SJJ _NP
-    NP CJJ _NP
-    _NP Noun
-    _NP NNS
-    _NP PrpNs
-    _NP IPRP
+1   S1   NP
+1   NP   Det NP
+1   NP   SJJ _NP
+1   NP   CJJ _NP
+1   _NP  Noun
+1   _NP  NNS
+1   _NP  PrpNs
+1   _NP  IPRP
     
-     #Negation
-     _NVBG  NOT VBG
-     _NVBDD NOT VBDD
-     _NJJ   NOT _JJ
-      NOT   not
+#Negation
+1   _NVBG  NOT VBG
+1   _NVBDD NOT VBDD
+1   _NJJ   NOT _JJ
       
-      #'s
-       NP  AsN NP
-       AsN _SNN AS
-      _SNN Noun
-      _SNN Prp
-      _SNN IPRP
-      _PNN NNS
-      _PNN PrpNs
+#'s
+1   NP   AsN NP
+1   AsN  _SNN AS
+1   _SNN Noun
+1   _SNN Prp
+1   _SNN IPRP
+1   _PNN NNS
+1   _PNN PrpNs
       
-      #counting
-      CNN sNum _SNN
-      CNN pNum _PNN
-      PNum #other than one
-      SNum One
-      
-      NP PosPn _NP
-      VP SN VB3
-      VP PLN VB3S
-      SN _SNN 
-      SN sMyPn
-      PLN _PNN
-      PLN PMyPn
-      SMyPn she
-      SMyPn he
-      SMyPn it
-      PMyPn I
-      PMyPn we
-      PMyPn they
-      PMyPn you
-      
+#counting
+1   CNN  SNum _SNN
+1   CNN  PNum _PNN
+
+#PN      
+1   NP   PosPn _NP
+1   VP   SN VB3
+1   VP   PLN VB3S
+1   SN   _SNN 
+1   SN   SMyPn
+1   PLN  _PNN
+1   PLN  PMyPn
+
       
       
     
