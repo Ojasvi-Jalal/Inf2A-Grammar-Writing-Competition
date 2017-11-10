@@ -98,7 +98,7 @@
 # Pauses.
 1    _,    ,
 1    _...    ...
-1    _(__)    --
+1    _(--)    --
 1    _;    ;
 1    _:    :
 
@@ -210,14 +210,15 @@
 
 # Personal pronouns.
 1    MyPn    I
-1    MyPn     he
+1    PMyPn   I
+1    SMyPn     he
 1    MyPn     her
 1    MyPn     him
-1    MyPn     it
+1    SMyPn     it
 1    MyPn     one
-1    MyPn     she
+1    SMyPn     she
 1    MyPn     them
-1    MyPn     they
+1    PMyPn     they
 
 
 # Possessive personal pronouns
@@ -251,6 +252,7 @@
 1    VB    speak
 1    VB    cover
 1    VB    be
+1    BE    be
 1    VB    ride
 1    VB    drink
 1    VB    grow
@@ -347,13 +349,13 @@
 1    JJ      other  
 1    Pn      other
 1    VB      other
-1    MyPn    you    
+1    PMyPn    you    
 1    Scontra 'm     
 1    JJ      dead   
 1    3contra 're    
 1    VBG     fooling
 1    Pn      anyone 
-1    MyPn    y'      
+1    PMyPn    y'      
 1    VB3S    feel    
 1    JJ      happy   
 1    Num     thirty  
@@ -361,7 +363,7 @@
 1    JJ      old     
 1    Noun    old
 1    Pn      yourself 
-1    MyPn    we      
+1    PMyPn    we      
 1    VBG     living   
 1    Prep    in       
 1    Adv     in
