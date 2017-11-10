@@ -34,6 +34,7 @@
 1   VP   PreVBDD VBDD
 1   VP   PreVBG VBG
 1   VP   TO VB
+1   PreVBDD had
     
 1   VP   PreVBG _JJ
 1   VP   VerbT AJJ
@@ -43,12 +44,19 @@
 1   _JJ  Adv   SJJ
 1   AJJ  Det   SJJ
 1   AJJ  Adv   JJ
+1   PreVBG is
+1   PreVBG was
+1   PreVBG were
+1   PreVBG am
+
+
     
 1   VP   VerbT
 1   VP   MV VBG
 1   VP   MV VB
 1   VP   FM VBG
 1   FM   MV BE
+1   BE   be
     
 1   S1   NP
 1   NP   Det NP
