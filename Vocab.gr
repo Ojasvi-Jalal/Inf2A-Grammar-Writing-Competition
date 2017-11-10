@@ -112,12 +112,12 @@
 1    CC     so
 
 # Numbers.
-1    Num    eight
-1    Num   five
-1    Num     one
-1    Num     5.5
-1    Num     sixty
-1    Num     5,000
+1   PNum    eight
+1   PNum   five
+1   SNum     one
+1   PNum     5.5
+1   SNum     sixty
+1   SNum     5,000
 
 # Expletive.
 1    Expl    there
@@ -521,4 +521,3 @@
 1    VB3S   mother 
 1    VB3S   run         
 1    Noun   run   
-
