@@ -97,11 +97,11 @@
 1    ThEnd    ?
 
 # Pauses.
-1    _,    ,
-1    _...    ...
-1    _(--)    --
-1    _;    ;
-1    _:    :
+1   Pause    ,
+1   Pause    ...
+1   Pause    --
+1   Pause   ;
+1   Pause    :
 
 # Coordinating conjunctions.
 1    CC    and
@@ -265,6 +265,7 @@
 # Verbs (past tense).
 1    VBD    had
 1    PreVBD had
+1    PreVBDD had
 1    VBD    spoke
 1    VBD    covered
 1    VBD    was
