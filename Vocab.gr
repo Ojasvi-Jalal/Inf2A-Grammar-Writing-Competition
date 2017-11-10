@@ -86,6 +86,7 @@
 1    VerbT    has
 1    VerbT    covers
 1    VerbT    is
+1    PreVBG   is
 1    VerbT    drinks
 1    VerbT    carries
 1    VerbT    rides
@@ -263,10 +264,13 @@
 
 # Verbs (past tense).
 1    VBD    had
+1    PreVBD had
 1    VBD    spoke
 1    VBD    covered
 1    VBD    was
+1    PreVBG was
 1    VBD    were
+1    PreVBG were
 1    VBD    rode
 1    VBD    drank
 1    VBD    grew
@@ -314,6 +318,7 @@
 1    VB3S     speak
 1    VB3S     cover
 1    VB3S     are
+1    PreVBG   are
 1    VB3S     ride
 1    VB3S     drink
 1    VB3S     grow
