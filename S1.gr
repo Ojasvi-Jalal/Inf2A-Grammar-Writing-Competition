@@ -106,3 +106,68 @@
 
 # in case you use S1.gr by itself
 1   S2   Misc
+
+# How and where
+S _WhAdv VP
+_WhAdv how
+_WhAdv where
+ VP     _PreVBG _NP
+_PreVBG is
+_PreVBG was
+_NP     SMyPn _?
+_NP     IPRP _?
+_NP     Proper _?
+_NP     _the __NP
+_the     the
+__NP    Noun _?
+VP      PreVBGs sNP
+PreVBGs were
+PreVBGs are
+sNP     _the ssNP
+ssNP    PrpNS _?
+
+sNP     _the sssNP
+sNP     _their sssNP
+_their   their
+sssNP   NNS _?
+
+VP  _am _Ipn
+_am  am
+_Ipn I _?
+
+VP _have _NPS
+VP _had  _NPG
+VP _has  _NPH
+_NPG Proper _VBDD
+_NPG _the _NPT
+_NPG _the _NPU
+_NPT Noun _VBDD
+_NPT MyPn _VBDD
+_NPT SMyPn _VBDD
+_NPT IPRP _VBDD
+_NPS _the _NPU
+_NPU PrpNS _VBDD
+_NPU NNS _VBDD
+_VBDD VBDD _?
+_NPT Noun _VBDD
+
+#where do the/how do they
+S _where VP
+S _how VP
+VP _do NP
+NP PMyPnS VB3S
+_where where
+_how   how 
+_do do
+PMyPnS they
+
+#WHY
+S _why _VPwhy
+_VPwhy PreVBG NP
+NP _first _last
+_first SMyPn _?
+_first Proper _?
+_first IPRP _?
+_last Prep _?
+_last JJ _?
+_last VBG _?
