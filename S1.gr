@@ -190,4 +190,28 @@
 1 _this this
 1 _that that
 
-
+#Eiter..or Neither..Nor
+1 S ECC NPE
+1 S _NCC NPN
+1 _NCC neither
+1 NPE Noun _OR
+1 NPE SMyPn _OR
+1 NPE PMyPn _OR
+1 NPE IPRP _OR
+1 NPE NNS _OR
+1 NPE Proper _OR
+1 NPN Noun _NOR
+1 NPN SMyPn _NOR
+1 NPN PMyPn _NOR
+1 NPN IPRP _NOR
+1 NPN NNS _NOR
+1 NPN Proper _NOR
+1 _OR OR NPO
+1 _NOR nor NPO
+1 NPO Noun VPO
+1 NPO SMyPn VPO
+1 NPO PMyPn VPO
+1 NPO IPRP VPO
+1 NPO NNS VPO
+1 NPO Proper VPO
+1 VPO MV VB3S
