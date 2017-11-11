@@ -45,6 +45,7 @@
 1    Det    no
 1    SDet    that
 1    Det    the
+1    _The   the
 1    SDet    this
 
 # Prepositions.
@@ -86,7 +87,7 @@
 1    VerbT    has
 1    VerbT    covers
 1    VerbT    is
-1    SPreVBG   is
+1    SPreVBG  is
 1    VerbT    drinks
 1    VerbT    carries
 1    VerbT    rides
@@ -94,7 +95,7 @@
 # End-of-sentence.
 1    _!    !
 1    _.    .
-1    _!    ?
+1    _?    ?
 
 # Pauses.
 1   Pause    ,
@@ -109,7 +110,7 @@
 1    CC    or
 1    OR    or
 1    ECC    either
-1    NCC    nor
+1    NOR    nor
 1    NCC     neither
 1    CC     so
 
@@ -125,7 +126,7 @@
 1    Expl    there
 
 # Subordinating conjunctions.
-1    SC   that
+1    SC    that
 1    SC    so
 1    SC    while
 1    SC    because
@@ -211,7 +212,7 @@
 1    PrpNS    Saxons
 
 # Personal pronouns.
-1    MyPn    I
+1    _I      I
 1    PMyPn   I
 1    SMyPn     he
 1    MyPn     her
@@ -405,7 +406,7 @@
 1    VB3S    become    
 1    VBDD    become
 1    Adv     then     
-1    IpreVBG  am        
+1    IPreVBG  am        
 1    PosPn   your      
 1    JJ      mean    
 1    VB      mean
