@@ -108,82 +108,82 @@
 1   S2   Misc
 
 # How and where
-S _WhAdv VP
-_WhAdv how
-_WhAdv where
- VP     _PreVBG _NP
-_PreVBG is
-_PreVBG was
-_NP     SMyPn _?
-_NP     IPRP _?
-_NP     Proper _?
-_NP     _the __NP
-_the     the
-__NP    Noun _?
-VP      PreVBGs sNP
-PreVBGs were
-PreVBGs are
-sNP     _the ssNP
-ssNP    PrpNS _?
+1 S _WhAdv VP
+1 _WhAdv how
+1 _WhAdv where
+1 VP     _PreVBG _NP
+1 _PreVBG is
+1 _PreVBG was
+1 _NP     SMyPn _?
+1 _NP     IPRP _?
+1 _NP     Proper _?
+1 _NP     _the __NP
+1 _the     the
+1 __NP    Noun _?
+1 VP      PreVBGs sNP
+1 PreVBGs were
+1 PreVBGs are1
+1 sNP     _the ssNP
+1 ssNP    PrpNS _?
 
-sNP     _the sssNP
-sNP     _their sssNP
-_their   their
-sssNP   NNS _?
+1 sNP     _the sssNP
+1 sNP     _their sssNP
+1 _their   their
+1 sssNP   NNS _?
 
-VP  _am _Ipn
-_am  am
-_Ipn I _?
+1 VP  _am _Ipn
+1 _am  am
+1 _Ipn I _?
 
-VP _have _NPS
-VP _had  _NPG
-VP _has  _NPH
-_NPG Proper _VBDD
-_NPG _the _NPT
-_NPG _the _NPU
-_NPT Noun _VBDD
-_NPT MyPn _VBDD
-_NPT SMyPn _VBDD
-_NPT IPRP _VBDD
-_NPS _the _NPU
-_NPU PrpNS _VBDD
-_NPU NNS _VBDD
-_VBDD VBDD _?
-_NPT Noun _VBDD
+1 VP _have _NPS
+1 VP _had  _NPG
+1 VP _has  _NPH
+1 _NPG Proper _VBDD
+1 _NPG _the _NPT
+1 _NPG _the _NPU
+1 _NPT Noun _VBDD
+1 _NPT MyPn _VBDD
+1 _NPT SMyPn _VBDD
+1 _NPT IPRP _VBDD
+1 _NPS _the _NPU
+1 _NPU PrpNS _VBDD
+1 _NPU NNS _VBDD
+1 _VBDD VBDD _?
+1 _NPT Noun _VBDD
 
 #where do the/how do they
-S _where VP
-S _how VP
-VP _do NP
-NP PMyPnS VB3S
-_where where
-_how   how 
-_do do
-PMyPnS they
+1 S _where VP
+1 S _how VP
+1 VP _do NP
+1 NP PMyPnS VB3S
+1 _where where
+1 _how   how 
+1 _do do
+1 PMyPnS they
 
 #WHY
-S _why _VPwhy
-_VPwhy PreVBG NP
-NP _first _last
-_first SMyPn _?
-_first Proper _?
-_first IPRP _?
-_last Prep _?
-_last JJ _?
-_last VBG _?
+1 S _why _VPwhy
+1 _VPwhy PreVBG NP
+1 NP _first _last
+1 _first SMyPn _?
+1 _first Proper _?
+1 _first IPRP _?
+1 _last Prep _?
+1 _last JJ _?
+1 _last VBG _?
 
 #When
-S _when _PreVBG winNP
-NP _winter _?
-winNP _that _?
-winNP _it _winVP
-winNP _this _winVP
-winNP _that _winVP
-winVP VBDD _?
-_winter winter
-_that that
-_it it
-_this this
-_that that
+1 S _when _PreVBG winNP
+1 NP _winter _?
+1 winNP _that _?
+1 winNP _it _winVP
+1 winNP _this _winVP
+1 winNP _that _winVP
+1 winVP VBDD _?
+1 _winter winter
+1 _that that
+1 _it it
+1 _this this
+1 _that that
 
-#
+
