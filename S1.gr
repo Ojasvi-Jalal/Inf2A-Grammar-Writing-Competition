@@ -171,3 +171,19 @@ _first IPRP _?
 _last Prep _?
 _last JJ _?
 _last VBG _?
+
+#When
+S _when _PreVBG winNP
+NP _winter _?
+winNP _that _?
+winNP _it _winVP
+winNP _this _winVP
+winNP _that _winVP
+winVP VBDD _?
+_winter winter
+_that that
+_it it
+_this this
+_that that
+
+#
