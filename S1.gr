@@ -6,53 +6,52 @@
 
 # This is a very, very, very simple grammar to get you started.
 
-1   S1   NP VP
-1   S1   NP _VP
-1   S1   SN SVP
-1   S1   PLN PVP
-1   S1   S1 CCP
+2   S1   SP
+2   S1   NP  _VP
+2   S1   SP CCP
 1   S1   Expl _!
 1   S1   Excl _!
-1   S1   NP VP
-1   S1   NP _VP
-1   S1   WhPn _VP?
+2   S1   WhPn _VP?
+
+1   SP   NP VP
+1   SP   SN SVP
+1   SP   PLN PVP
+1   SP   _I  IVP
 
 #Verb Phrases
 1   _VP  VP Punc
 1   _VP?  VP _?
-1   _VP!  VP _!
 
 1   VP   SVP
 1   VP   PVP
 1   VP   IVP
-1   IVP  IPreVBG VBG
-1   IVP  IPreVBG _JJ
+1   IVP   IPreVBG _NVBG
+1   IVP   IPreVBG _NJJ
 1   IVP   IPreVBG NP
 1   SVP   VerbT NP
 1   SVP   VerbT AJJ
-1   SVP   SPreVBG VBG
-1   SVP   SPreVBG _JJ
+1   SVP   SPreVBG _NVBG
+1   SVP   SPreVBG _NJJ
 1   SVP   SPreVBG NP
-1   PVP   PPreVBG _JJ
-1   PVP   PPreVBG VBG
+1   PVP   PPreVBG _NJJ
+1   PVP   PPreVBG _NVBG
 1   PVP   PPreVBG NP
 1   VP   VBD NP
 1   VP   Adv VP
-1   VP   PreVBDD VBDD
+1   VP   PreVBDD NVBDD
 1   VP   TO VB
 1   VP   VerbT
-1   VP   MV VBG
+1   VP   FM VBG
 1   VP   MV VB
 1   VP   FM VBG
 1   FM   MV BE
 
 #Noun Phrases
-1   Det  SDet
-
-1   NP   Det _NP
-1   NP   SDet _SNN
+1   NP   SN
+1   NP   PLN
+1   NP   Det  _NP
 1   NP   Proper
-1   NP   SJJ _NP
+1   NP   _SJJ _NP
 1   NP   CJJ _NP
 1   _NP  Noun
 1   _NP  NNS
@@ -68,6 +67,8 @@
 1   _PNN PrpNS
 1   SN   _SNN 
 1   SN   SMyPn
+1   SN   SDet _SNN
+1   PLN  PDet _PNN
 1   PLN  _PNN
 1   PLN  PMyPn
 
@@ -79,21 +80,24 @@
 1   CCP  SC  VP
 
 #Adjectives
-1   _JJ  Det   SJJ
+1   _JJ  _The  SJJ
 1   _JJ  CJJ
 1   _JJ  JJ
 1   _JJ  Adv   SJJ
-1   AJJ  Det   SJJ
-1   AJJ  Adv   JJ
+1   AJJ  _The   SJJ
+1   AJJ  Adv   _JJ
 
 #Negation
 1   _NVBG  NOT VBG
+1   _NVBG  VBG
+1   _NVBDD VBDD
 1   _NVBDD NOT VBDD
 1   _NJJ   NOT _JJ
+1   _NJJ   _JJ
       
 #'s
 1   NP   AsN  _NP
-1   AsN  SN  AS
+1   AsN  _SNN  AS
       
 #counting
 1   CNN  SNum _SNN
@@ -104,114 +108,22 @@
 1   VP   SN VB3
 1   VP   PLN VB3S
 
+#Eiter..or Neither..Nor
+1 S1 ENP VP
+1 S1 ESP VP
+1 ESP  ECC SPO
+1 SPO  SP _OR
+1 ENP  ECC NPO
+1 NPO  NP _OR
+_OR    OR  NP
+
+1 S1 NNP VP
+1 S1 NSP VP
+1 NSP  NCC SPN
+1 SPN  SP _NOR
+1 NNP  NCC NPN
+1 NPN  NP _NOR
+_NOR   NOR NP
+
 # in case you use S1.gr by itself
 1   S2   Misc
-
-# How and where
-1 S _WhAdv VP
-1 _WhAdv how
-1 _WhAdv where
-1 VP     _PreVBG _NP
-1 _PreVBG is
-1 _PreVBG was
-1 _NP     SMyPn _?
-1 _NP     IPRP _?
-1 _NP     Proper _?
-1 _NP     _the __NP
-1 _the     the
-1 __NP    Noun _?
-1 VP      PreVBGs sNP
-1 PreVBGs were
-1 PreVBGs are1
-1 sNP     _the ssNP
-1 ssNP    PrpNS _?
-
-1 sNP     _the sssNP
-1 sNP     _their sssNP
-1 _their   their
-1 sssNP   NNS _?
-
-1 VP  _am _Ipn
-1 _am  am
-1 _Ipn I _?
-
-1 VP _have _NPS
-1 VP _had  _NPG
-1 VP _has  _NPT
-1 _NPG Proper _VBDD
-1 _NPG _the _NPT
-1 _NPG _the _NPU
-1 _NPT Noun _VBDD
-1 _NPT MyPn _VBDD
-1 _NPT SMyPn _VBDD
-1 _NPT IPRP _VBDD
-1 _NPS _the _NPU
-1 _NPU PrpNS _VBDD
-1 _NPU NNS _VBDD
-1 _VBDD VBDD _?
-1 _NPT Noun _VBDD
-1 _have have
-1 _has has
-1 _had had
-
-#where do the/how do they
-1 S  _where VP
-1 S  _how VP
-1 VP _do NP
-1 NP PMyPnS VB3S
-1 _where where
-1 _how   how 
-1 _do do
-1 PMyPnS they
-
-#WHY
-1 S _why _VPwhy
-1 _VPwhy PreVBG NP
-1 NP _first _last
-1 _first SMyPn _?
-1 _first Proper _?
-1 _first IPRP _?
-1 _last Prep _?
-1 _last JJ _?
-1 _last VBG _?
-
-#When
-1  S    _when  wVP 
-1  wVP _PreVBG winNP
-1 NP _winter _?
-1 winNP _that _?
-1 winNP _it _winVP
-1 winNP _this _winVP
-1 winNP _that _winVP
-1 winVP VBDD _?
-1 _winter winter
-1 _that that
-1 _it   it
-1 _this this
-1 _that that
-
-#Eiter..or Neither..Nor
-1 S ECC NPE
-1 S _NCC NPN
-1 _NCC neither
-1 NPE Noun _OR
-1 NPE SMyPn _OR
-1 NPE PMyPn _OR
-1 NPE IPRP _OR
-1 NPE NNS _OR
-1 NPE Proper _OR
-1 NPN Noun _NOR
-1 NPN SMyPn _NOR
-1 NPN PMyPn _NOR
-1 NPN IPRP _NOR
-1 NPN NNS _NOR
-1 NPN Proper _NOR
-1 _OR OR NPO
-1 _NOR nor NPO
-1 NPO Noun VPO
-1 NPO SMyPn VPO
-1 NPO PMyPn VPO
-1 NPO IPRP VPO
-1 NPO NNS VPO
-1 NPO Proper VPO
-1 VPO MV VB3S
