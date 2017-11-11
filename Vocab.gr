@@ -37,15 +37,15 @@
 1    Noun    story
 
 # Determiners.
-1    Det    a
-1    Det    another
+1    SDet    a
+1    SDet    another
 1    Det    any
-1    Det    each
-1    Det    every
+1    SDet    each
+1    SDet    every
 1    Det    no
-1    Det    that
+1    SDet    that
 1    Det    the
-1    Det    this
+1    SDet    this
 
 # Prepositions.
 1    Prep    above
@@ -86,15 +86,15 @@
 1    VerbT    has
 1    VerbT    covers
 1    VerbT    is
-1    PreVBG   is
+1    SPreVBG   is
 1    VerbT    drinks
 1    VerbT    carries
 1    VerbT    rides
 
 # End-of-sentence.
-1    ThEnd    !
-1    ThEnd    .
-1    ThEnd    ?
+1    _!    !
+1    _.    .
+1    _!    ?
 
 # Pauses.
 1   Pause    ,
@@ -107,9 +107,10 @@
 1    CC    and
 1    CC    but
 1    CC    or
-1    CC    either
-1    CC    nor
-1    CC     neither
+1    OR    or
+1    ECC    either
+1    NCC    nor
+1    NCC     neither
 1    CC     so
 
 # Numbers.
@@ -264,14 +265,13 @@
 
 # Verbs (past tense).
 1    VBD    had
-1    PreVBD had
 1    PreVBDD had
 1    VBD    spoke
 1    VBD    covered
 1    VBD    was
-1    PreVBG was
+1    SPreVBG was
 1    VBD    were
-1    PreVBG were
+1    PPreVBG were
 1    VBD    rode
 1    VBD    drank
 1    VBD    grew
@@ -319,7 +319,7 @@
 1    VB3S     speak
 1    VB3S     cover
 1    VB3S     are
-1    PreVBG   are
+1    PPreVBG   are
 1    VB3S     ride
 1    VB3S     drink
 1    VB3S     grow
@@ -351,6 +351,7 @@
 1    AS    's
 
 # Some additional words from Monty Python
+1    VB      pull
 1    VB3S    pull   
 1    JJ      other  
 1    Pn      other
@@ -360,7 +361,8 @@
 1    3contra 're    
 1    VBG     fooling
 1    Pn      anyone 
-1    PMyPn    y'      
+1    PMyPn    y'  
+1    VB      feel
 1    VB3S    feel    
 1    JJ      happy   
 1    Num     thirty  
@@ -374,10 +376,11 @@
 1    Adv     in
 1    JJ      in
 1    Noun    dictatorship 
-1    Det     an          
+1    SDet     an          
 1    JJ      anarcho-syndicalist 
 1    Noun    commune 
-1    VBG     commune
+1    VB      commune
+1    VB3S    commune
 1    Pn      all     
 1    Adv     all
 1    Noun   decisions 
@@ -390,7 +393,8 @@
 1    Noun   biweekly
 1    Noun   meeting   
 1    VBG    meeting
-1    VBG    order     
+1    VB      order
+1    VB3S    order     
 1    Noun   order
 1    JJ     quiet     
 1    Adv    well     
@@ -401,10 +405,11 @@
 1    VB3S    become    
 1    VBDD    become
 1    Adv     then     
-1    preVBG  am        
+1    IpreVBG  am        
 1    PosPn   your      
-1    JJ      mean     
-1    VBG     mean
+1    JJ      mean    
+1    VB      mean
+1    VB3S     mean
 1    Noun    mean
 1    VBD    went     
 1    Adv    around    
@@ -425,7 +430,8 @@
 1    VBDD   lobbed
 1    Noun   scimitar 
 1    Pn     me        
-1    Contra   'd       
+1    Contra   'd    
+1    VB      put
 1    VB3S    put       
 1    Adv    away     
 1    JJ     away
@@ -433,13 +439,16 @@
 1    Adv    now      
 1    SC     now  
 1    JJ     now  
+1    VB      see
 1    VB3S    see       
 1    Noun   violence   
 1    JJ    inherent   
 1    Noun    system     
-1    Excl    oh         
+1    Excl    oh  
+1    VB      come
 1    VB3S    come       
 1    Prep    come
+1    VB      help
 1    VB3S    help       
 1    Noun    help
 1    JJ     repressed  
@@ -456,26 +465,34 @@
 1    Prep    with       
 1    Pn      none      
 1    Adv     none
-1    VB3S    pass        
+1    VB      pass
+1    VB3S    pass 
+1    VB      move
 1    VB3S    move        
 1    Noun    man  
+1    VB      man
 1    VB3S    man  
 1    Noun    pansy       
 1    Noun    victory     
 1    PosPn    mine        
-1    VBG    going       
+1    VBG    going 
+1    VB      bleed
 1    VB3S    bleed       
 1    JJ    loony     
 1    Noun  loony
 1    JJ    right       
 1    Adv    right 
 1    Noun   right 
+1    VB     right
 1    VB3S   right 
-1    contra  'll         
+1    contra  'll    
+1    VB      call
 1    VB3S    call        
 1    Noun    call
+1    VB      draw
 1    VB3S    draw      
-1    Noun    draw  
+1    Noun    draw 
+1    VB      bite
 1    VB3S    bite        
 1    Noun    bite
 1    NNS    legs        
@@ -485,30 +502,35 @@
 1    VBD     found       
 1    VBDD    found   
 1    VB3S    found   
-1    Noun    witch       
+1    Noun    witch  
+1    VB      burn
 1    VB3S    burn        
 1    Noun    burn 
 1    Num    second     
 1    Noun   thought     
 1    VBD    thought
 1    VBDD   thought
-1    VBG    let         
+1    VB     let
+1    VB3    let 
+1    VB     go
 1    VB3S   go         
 1    JJ     silly     
-1    Noun    place       
+1    Noun    place 
+1    VB      place
 1    VB3S    place 
 1    Noun    King        
 1    Noun   purpose    
 1    Noun    Quest       
+1    VB      tell
 1    VB3S    tell       
 1    VBD    charged     
 1    VBDD    charged 
 1    JJ      charged 
-1    Proper    God         
+1    Proper    God 
+1    VB      blow
 1    VB3S    blow        
 1    PosPn    my                
 1    Noun   nose  
-1    VB3S   nose 
 1    JJ     so-called   
 1    Noun   Arthur-king 
 1    JJ     English     
@@ -516,12 +538,13 @@
 1    NNS    knnnniggets 
 1    Excl   thppppt     
 1    JJ     strange     
-1    Noun   person      
+1    Noun   person 
+1    VB     taunt
 1    VB3S   taunt      
 1    Noun   taunt  
 1    Noun   time-a     
 1    Excl   ah        
-1    Noun   mother      
-1    VB3S   mother 
+1    Noun   mother  
+1    VB     run
 1    VB3S   run         
 1    Noun   run 
