@@ -137,7 +137,7 @@
 
 1 VP _have _NPS
 1 VP _had  _NPG
-1 VP _has  _NPH
+1 VP _has  _NPT
 1 _NPG Proper _VBDD
 1 _NPG _the _NPT
 1 _NPG _the _NPU
@@ -150,10 +150,13 @@
 1 _NPU NNS _VBDD
 1 _VBDD VBDD _?
 1 _NPT Noun _VBDD
+1 _have have
+1 _has has
+1 _had had
 
 #where do the/how do they
-1 S _where VP
-1 S _how VP
+1 S  _where VP
+1 S  _how VP
 1 VP _do NP
 1 NP PMyPnS VB3S
 1 _where where
@@ -173,7 +176,8 @@
 1 _last VBG _?
 
 #When
-1 S _when _PreVBG winNP
+1  S    _when  wVP 
+1  wVP _PreVBG winNP
 1 NP _winter _?
 1 winNP _that _?
 1 winNP _it _winVP
@@ -182,7 +186,7 @@
 1 winVP VBDD _?
 1 _winter winter
 1 _that that
-1 _it it
+1 _it   it
 1 _this this
 1 _that that
 
