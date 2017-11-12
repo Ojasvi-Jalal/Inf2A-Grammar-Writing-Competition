@@ -119,8 +119,8 @@
 1   PNum   five
 1   SNum     one
 1   PNum     5.5
-1   SNum     sixty
-1   SNum     5,000
+1   PNum     sixty
+1   PNum     5,000
 
 # Expletive.
 1    Expl    there
@@ -240,8 +240,9 @@
 1    Adv    unfortunately
 
 # 'do'/'does'
-1    Do/es    do
-1    Do/es   does
+1    VB3S    do
+1    VB      do
+1    VB3    does
 
 # 'to'
 1    TO    to
@@ -251,6 +252,7 @@
 
 # Verbs (base form).
 1    VB    have
+1    _Have have
 1    VB    speak
 1    VB    cover
 1    VB    be
@@ -268,9 +270,7 @@
 1    PreVBDD had
 1    VBD    spoke
 1    VBD    covered
-1    VBD    was
 1    SPreVBG was
-1    VBD    were
 1    PPreVBG were
 1    VBD    rode
 1    VBD    drank
@@ -318,7 +318,6 @@
 1    VB3S     have
 1    VB3S     speak
 1    VB3S     cover
-1    VB3S     are
 1    PPreVBG   are
 1    VB3S     ride
 1    VB3S     drink
@@ -330,7 +329,6 @@
 
 # Wh-determiners.
 1    WhDet    that
-1    WhDet    what
 1    WhDet    which
 
 # Wh-pronouns.
@@ -338,7 +336,7 @@
 1    WhPn    who
 
 # Wh possessive pronoun.
-1    WhPosPn  whose
+1    WhPos  whose
 
 # Wh-adverbs
 1    WhAdv    how
@@ -356,9 +354,9 @@
 1    JJ      other  
 1    Pn      other
 1    PMyPn    you    
-1    Scontra 'm     
+1    IPreVBG 'm     
 1    JJ      dead   
-1    3contra 're    
+1    3Contra 're    
 1    VBG     fooling
 1    Pn      anyone 
 1    PMyPn    y'  
@@ -410,7 +408,6 @@
 1    JJ      mean    
 1    VB      mean
 1    VB3S     mean
-1    Noun    mean
 1    VBD    went     
 1    Adv    around    
 1    Prep    around
@@ -430,7 +427,7 @@
 1    VBDD   lobbed
 1    Noun   scimitar 
 1    Pn     me        
-1    Contra   'd    
+1    DContra   'd    
 1    VB      put
 1    VB3S    put       
 1    Adv    away     
@@ -474,18 +471,17 @@
 1    VB3S    man  
 1    Noun    pansy       
 1    Noun    victory     
-1    Pn    mine        
+1    Pn      mine        
 1    VBG    going 
 1    VB      bleed
 1    VB3S    bleed       
 1    JJ    loony     
 1    Noun  loony
-1    JJ    right       
-1    Adv    right 
+1    JJ    right
 1    Noun   right 
 1    VB     right
 1    VB3S   right 
-1    contra  'll    
+1    MContra  'll    
 1    VB      call
 1    VB3S    call        
 1    Noun    call
@@ -518,9 +514,9 @@
 1    Noun    place 
 1    VB      place
 1    VB3S    place 
-1    Noun    King        
+1    IPRP    King        
 1    Noun   purpose    
-1    Noun    Quest       
+1    IPRP    Quest       
 1    VB      tell
 1    VB3S    tell       
 1    VBD    charged     
@@ -532,8 +528,7 @@
 1    PosPn    my                
 1    Noun   nose  
 1    JJ     so-called   
-1    Noun   Arthur-king 
-1    JJ     English     
+1    Noun   Arthur-king      
 1    IPRP   English     
 1    NNS    knnnniggets 
 1    Excl   thppppt     
