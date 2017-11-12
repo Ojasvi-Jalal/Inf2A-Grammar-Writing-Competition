@@ -11,12 +11,48 @@
 2   S1   SP CCP
 1   S1   Expl _!
 1   S1   Excl _!
-2   S1   WhPn _VP?
+2   S1   WhN _VP?
+2   S1   SQVP SSP
+2   S1   PQVP PSP
 
 1   SP   NP VP
 1   SP   SN SVP
 1   SP   PLN PVP
+1   SP   PMyPn CPVP
 1   SP   _I  IVP
+1   SP   AMyPn CMVB
+1   SP   AMyPn CDVB
+
+1  AMyPn  SMyPn
+1  AMyPn  PMyPn
+1  AMyPn  _I
+1  CMVB   MContra MVB
+1  MVB   VB
+1  MVB   BE VBG
+1  CDVB  DContra DVB
+1  DVB   VBD
+1  DVB   VBDD
+1  DVB   _Have VBDD
+
+1   WhN  WhPn
+1   WhN  WhPos _NP
+
+1   SQVP WhAdv SPreVBG
+1   PQVP WhAdv PPreVBG
+1   SSP  SN SWVP?
+1   SWVP? SWVP _?
+1   SWVP VBG
+1   SWVP WhDet SVB  
+1   PSP  PLN  PWVP?
+1   PWVP?  PWVP _?
+1   PWVP   VBG
+1   PWVP   WhDet PVB
+1   SVB   VB3
+1   SVB   VBD
+1   SVB   PreVBDD VBDD
+1   PVB   VB3S
+1   PVB   VBD
+1   PVB   PreVBDD VBDD
 
 #Verb Phrases
 1   _VP  VP Punc
@@ -24,17 +60,18 @@
 
 1   IVP   IPreVBG _NVBG
 1   IVP   IPreVBG _NJJ
-1   IVP   VB3S
-1   IVP   VB3S AJJ
+1   IVP   PVB
+1   IVP   PVB AJJ
 1   SVP   VerbT NP
-1   SVP   VB3
-1   SVP   VB3 AJJ
+1   SVP   SVB
+1   SVP   SVB AJJ
 1   SVP   SPreVBG _NVBG
 1   SVP   SPreVBG _NJJ
 1   PVP   PPreVBG _NJJ
 1   PVP   PPreVBG _NVBG
-1   PVP   VB3S
-1   PVP   VB3S AJJ
+1   CPVP  3Contra _NVBG
+1   PVP   PVB
+1   PVP   PVB AJJ
 1   VP   VBD NP
 1   VP   Adv VP
 1   VP   PreVBDD _NVBDD
@@ -60,21 +97,24 @@
 1   _SJJ  _The SJJ
 
 1   _SNN Noun
-1   _SNN Proper
 1   _SNN IPRP
 1   _PNN NNS
 1   _PNN PrpNS
 1   SN   _SNN
 1   SN   SMyPn
 1   SN   SDet _SNN
+1   SN   SCN
 1   PLN  PDet _PNN
 1   PLN  _PNN
 1   PLN  PMyPn
+1   PLN  PCN
 
 #Prepositions
 1   PP   Prep NP
-1   PP   Prep Pn
-1   PP   TO   Pn
+1   PP   Prep _Pn
+1   PP   TO   _Pn
+1   _Pn  Pn
+1   _Pn  MyPn
 
 
 #Conjuctions
@@ -101,11 +141,12 @@
 #'s
 1   NP   AsN  Noun
 1   NP   AsN  NNS
-1   AsN  _SNN  AS
+3   AsN  _SNN  AS
+1   AsN  Proper AS
 
 #counting
-1   CNN  SNum _SNN
-1   CNN  PNum _PNN
+1   SCN  SNum _SNN
+1   PCN  PNum _PNN
 
 #Pronouns
 1   NP   PosPn _NP
