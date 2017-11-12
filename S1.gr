@@ -15,158 +15,158 @@
 2   S1   SQVP SSP
 2   S1   PQVP PSP
 
-1   SP   NP VP
-1   SP   SN SVP
-1   SP   PLN PVP
-1   SP   PMyPn CPVP
-1   SP   _I  IVP
-1   SP   AMyPn CMVB
-1   SP   AMyPn CDVB
+3   SP   NP VP
+3   SP   SN SVP
+3   SP   PLN PVP
+3   SP   PMyPn CPVP
+3   SP   _I  IVP
+3   SP   AMyPn CMVB
+3   SP   AMyPn CDVB
 
-1  AMyPn  SMyPn
-1  AMyPn  PMyPn
-1  AMyPn  _I
-1  CMVB   MContra MVB
-1  MVB   VB
-1  MVB   BE VBG
-1  CDVB  DContra DVB
-1  DVB   VBD
-1  DVB   VBDD
-1  DVB   _Have VBDD
+3  AMyPn  SMyPn
+3  AMyPn  PMyPn
+3  AMyPn  _I
+3  CMVB   MContra MVB
+3  MVB   VB
+3  MVB   BE VBG
+3  CDVB  DContra DVB
+3  DVB   VBD
+3  DVB   VBDD
+3  DVB   _Have VBDD
 
-1   WhN  WhPn
-1   WhN  WhPos _NP
+3   WhN  WhPn
+3   WhN  WhPos _NP
 
-1   SQVP WhAdv SPreVBG
-1   PQVP WhAdv PPreVBG
-1   SSP  SN SWVP?
-1   SWVP? SWVP _?
-1   SWVP VBG
-1   SWVP WhDet SVB  
-1   PSP  PLN  PWVP?
-1   PWVP?  PWVP _?
-1   PWVP   VBG
-1   PWVP   WhDet PVB
-1   SVB   VB3
-1   SVB   VBD
-1   SVB   PreVBDD VBDD
-1   PVB   VB3S
-1   PVB   VBD
-1   PVB   PreVBDD VBDD
+3   SQVP WhAdv SPreVBG
+3   PQVP WhAdv PPreVBG
+3   SSP  SN SWVP?
+3   SWVP? SWVP _?
+3   SWVP VBG
+3   SWVP WhDet SVB  
+3   PSP  PLN  PWVP?
+3   PWVP?  PWVP _?
+3   PWVP   VBG
+3   PWVP   WhDet PVB
+3   SVB   VB3
+3   SVB   VBD
+3   SVB   PreVBDD VBDD
+3   PVB   VB3S
+3   PVB   VBD
+3   PVB   PreVBDD VBDD
 
 #Verb Phrases
-1   _VP  VP Punc
-1   _VP?  VP _?
+3   _VP  VP Punc
+3   _VP?  VP _?
 
-1   IVP   IPreVBG _NVBG
-1   IVP   IPreVBG _NJJ
-1   IVP   PVB
-1   IVP   PVB AJJ
-1   SVP   VerbT NP
-1   SVP   SVB
-1   SVP   SVB AJJ
-1   SVP   SPreVBG _NVBG
-1   SVP   SPreVBG _NJJ
-1   PVP   PPreVBG _NJJ
-1   PVP   PPreVBG _NVBG
-1   CPVP  3Contra _NVBG
-1   PVP   PVB
-1   PVP   PVB AJJ
-1   VP   VBD NP
-1   VP   Adv VP
-1   VP   PreVBDD _NVBDD
-1   VP   TO VB
-1   VP   FM VBG
-1   VP   MV VB
-1   VP   FM VBG
-1   FM   MV BE
+3   IVP   IPreVBG _NVBG
+3   IVP   IPreVBG _NJJ
+3   IVP   PVB
+3   IVP   PVB AJJ
+3   SVP   VerbT NP
+3   SVP   SVB
+3   SVP   SVB AJJ
+3   SVP   SPreVBG _NVBG
+3   SVP   SPreVBG _NJJ
+3   PVP   PPreVBG _NJJ
+3   PVP   PPreVBG _NVBG
+3   CPVP  3Contra _NVBG
+3   PVP   PVB
+3   PVP   PVB AJJ
+3   VP   VBD NP
+3   VP   Adv VP
+3   VP   PreVBDD _NVBDD
+3   VP   TO VB
+3   VP   FM VBG
+3   VP   MV VB
+3   VP   FM VBG
+3   FM   MV BE
 
 #Noun Phrases
-1   NP   SN
-1   NP   PLN
-1   NP   Det  _NP
-1   NP   Proper
-1   NP   _SJJ _NP
-1   NP   CJJ _NP
-1   _NP  Noun
-1   _NP  NNS
-1   _NP  PrpNS
-1   _NP  IPRP
-1   _NP  Proper
-1   _NP  _NP PP
-1   _SJJ  _The SJJ
+3   NP   SN
+3   NP   PLN
+3   NP   Det  _NP
+3   NP   Proper
+3   NP   _SJJ _NP
+3   NP   CJJ _NP
+3   _NP  Noun
+3   _NP  NNS
+3   _NP  PrpNS
+3   _NP  IPRP
+2   _NP  Proper
+3   _NP  _NP PP
+3   _SJJ  _The SJJ
 
-1   _SNN Noun
-1   _SNN IPRP
-1   _PNN NNS
-1   _PNN PrpNS
-1   SN   _SNN
-1   SN   SMyPn
-1   SN   SDet _SNN
-1   SN   SCN
-1   PLN  PDet _PNN
-1   PLN  _PNN
-1   PLN  PMyPn
-1   PLN  PCN
+3   _SNN Noun
+3   _SNN IPRP
+3   _PNN NNS
+3   _PNN PrpNS
+3   SN   _SNN
+3   SN   SMyPn
+3   SN   SDet _SNN
+3   SN   SCN
+3   PLN  PDet _PNN
+3   PLN  _PNN
+3   PLN  PMyPn
+3   PLN  PCN
 
 #Prepositions
 1   PP   Prep NP
-1   PP   Prep _Pn
-1   PP   TO   _Pn
-1   _Pn  Pn
-1   _Pn  MyPn
+3   PP   Prep _Pn
+2   PP   TO   _Pn
+2   _Pn  Pn
+3   _Pn  MyPn
 
 
 #Conjuctions
-2   CCP  CC  VP
-2   CCP  SC  VP
-1   CCP  Pause VP
+3   CCP  CC  VP
+3   CCP  SC  VP
+2   CCP  Pause VP
 
 #Adjectives
-1   _JJ  _SJJ
-1   _JJ  CJJ
-1   _JJ  JJ
-1   _JJ  Adv   SJJ
-1   AJJ  _SJJ
-1   AJJ  Adv   _JJ
+3   _JJ  _SJJ
+3   _JJ  CJJ
+3   _JJ  JJ
+3   _JJ  Adv   SJJ
+3   AJJ  _SJJ
+3   AJJ  Adv   _JJ
 
 #Negation
-1   _NVBG  NOT VBG
-1   _NVBG  VBG
-1   _NVBDD VBDD
-1   _NVBDD NOT VBDD
-1   _NJJ   NOT _JJ
-1   _NJJ   _JJ
+3   _NVBG  NOT VBG
+3   _NVBG  VBG
+3   _NVBDD VBDD
+3   _NVBDD NOT VBDD
+3   _NJJ   NOT _JJ
+3   _NJJ   _JJ
 
 #'s
-1   NP   AsN  Noun
-1   NP   AsN  NNS
-3   AsN  _SNN  AS
-1   AsN  Proper AS
+3   NP   AsN  Noun
+3   NP   AsN  NNS
+2   AsN  _SNN  AS
+3   AsN  Proper AS
 
 #counting
-1   SCN  SNum _SNN
-1   PCN  PNum _PNN
+3   SCN  SNum _SNN
+3   PCN  PNum _PNN
 
 #Pronouns
-1   NP   PosPn _NP
+3   NP   PosPn _NP
 
 #Either or Neither Nor
-1 S1 ENP VP
-1 S1 ESP NP
-1 ESP  ECC SPO
-1 SPO  SP OR
-1 ENP  ECC NPO
-1 NPO  NP _OR
-1 _OR  OR  NP
+3 S1 ENP VP
+3 S1 ESP NP
+3 ESP  ECC SPO
+3 SPO  SP OR
+3 ENP  ECC NPO
+3 NPO  NP _OR
+3 _OR  OR  NP
 
-1 S1 NNP VP
-1 S1 NSP NP
-1 NSP  NCC SPN
-1 SPN  SP NOR
-1 NNP  NCC NPN
-1 NPN  NP _NOR
-1 _NOR NOR NP
+3 S1 NNP VP
+3 S1 NSP NP
+3 NSP  NCC SPN
+3 SPN  SP NOR
+3 NNP  NCC NPN
+3 NPN  NP _NOR
+3 _NOR NOR NP
 
 # in case you use S1.gr by itself
 1   S2   Misc
