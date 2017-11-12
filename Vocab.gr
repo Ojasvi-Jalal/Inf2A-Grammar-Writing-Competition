@@ -213,7 +213,6 @@
 
 # Personal pronouns.
 1    _I      I
-1    PMyPn   I
 1    SMyPn     he
 1    MyPn     her
 1    MyPn     him
@@ -420,7 +419,7 @@
 1    Adv   just     
 1    JJ    just
 1    JJ    some     
-1    Det   some 
+1    PDet   some 
 1    Pn    some 
 1    Adv   some 
 1    VBD    moistened 
@@ -459,7 +458,7 @@
 1    VB3S    fight      
 1    Noun    fight  
 1    Noun    strength    
-1    Det     many        
+1    PDet    many        
 1    Pn      many   
 1    JJ      many   
 1    Noun    men         
@@ -475,7 +474,7 @@
 1    VB3S    man  
 1    Noun    pansy       
 1    Noun    victory     
-1    PosPn    mine        
+1    Pn    mine        
 1    VBG    going 
 1    VB      bleed
 1    VB3S    bleed       
